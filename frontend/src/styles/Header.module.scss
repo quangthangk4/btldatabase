@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    
+}
+
+.navlink {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 24px;
+
+    &:hover{
+        background-color: rebeccapurple;
+        color: #fff;
+    }
+}
+
+
+
+.active {
+    background-color: rebeccapurple;
+}
+
+.login {
+    text-decoration: none;
+
+    button {
+        color: #000;
+    }
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
